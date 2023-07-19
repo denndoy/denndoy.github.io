@@ -1,0 +1,16 @@
+.jumbotron {
+    padding-top: 6rem;
+    background-color: #f7e7c6;
+}
+
+.col-md-4 p {
+    text-align: justify;
+}
+
+#projects {
+    background-color: #f7e7c6;
+}
+
+section {
+    padding-top: 5rem;
+}
