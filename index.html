@@ -220,6 +220,42 @@
     </section>
     <!-- Akhir Gallery -->
 
+    <!-- My Laptop -->
+    <section id="my-laptop" class="my-laptop">
+        <div class="container">
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <h2>My Laptop</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-3">
+                    <div class="laptop-box">
+                        <h4 class="laptop-name">ASUS</h4>
+                        <img src="img/tilt/laptop-1.png" alt="ASUS" class="laptop-img">
+                        <a href="#" class="btn btn-light laptop-detail-button">Show Details</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-3">
+                    <div class="laptop-box">
+                        <h4 class="laptop-name">LENOVO</h4>
+                        <img src="img/tilt/laptop-2.png" alt="LENOVO" class="laptop-img">
+                        <a href="#" class="btn btn-light laptop-detail-button">Show Details</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-3">
+                    <div class="laptop-box">
+                        <h4 class="laptop-name">ACER</h4>
+                        <img src="img/tilt/laptop-3.png" alt="ACER" class="laptop-img">
+                        <a href="#" class="btn btn-light laptop-detail-button">Show Details</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!-- Akhir My Laptop -->
+
     <!-- Contact -->
     <section id="contact">
         <div class="container">
@@ -329,6 +365,16 @@
                     console.log('Success!', response);
                 })
                 .catch(error => console.error('Error!', error.message))
+        });
+    </script>
+
+    <script src="js/raw.githubusercontent.com_micku7zu_vanilla-tilt.js_master_dist_vanilla-tilt.min.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll(".laptop-box"), {
+            max: 30,
+            speed: 1000,
+            scale: 1.1,
+            glare: true,
         });
     </script>
 </body>
